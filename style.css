@@ -38,7 +38,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 70%;
   margin: 30px auto;
   display: grid;
   place-items: center;
@@ -94,7 +94,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-  width: 50%;
+  width: 70%;
   margin: 16px auto;
   display: grid;
   place-items: center;
@@ -137,6 +137,7 @@ body {
   display: block;
   color: white;
 }
+
 
 @media screen and (max-width: 768px) {
   .body {
@@ -194,6 +195,10 @@ body {
   }
   .fibonacci-wrap span {
     font-size: 14px;
+  }
+
+  .ukuran input{
+    height: 16px;
   }
 }
 
