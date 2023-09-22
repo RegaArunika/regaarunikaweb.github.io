@@ -7,8 +7,11 @@ function hitungFibonacci() {
     return;
   }
 
-  let fibonacci = [1,1];
+  let fibonacci = [1];
 
+  if(n>1){
+    fibonacci.push(1);
+  }
   for (let i = 2; i < n; i++) {
     const nextFib = fibonacci[i - 1] + fibonacci[i - 2];
     fibonacci.push(nextFib);

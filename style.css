@@ -127,11 +127,16 @@ body {
 
 .bangunRuang-wrap label {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .ukuran input{
-  height: 20px;
+  height: 30px;
+}
+
+.bangunRuang-wrap select{
+  height: 30px;
+  width: 100px;
 }
 
 .ukuran label {
@@ -165,10 +170,10 @@ body {
     font-size: 14px;
   }
 
-  .bangunRuang-wrap .ukuran input {
+  .bangunRuang-wrap  input {
     width: auto;
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .bangunRuang-wrap label {
@@ -198,11 +203,7 @@ body {
     font-size: 14px;
   }
 
-  .ukuran input{
-    height: 16px;
-  }
-
-  .ukuran .ukuran1{
+  .ukuran input .ukuran1{
     height: 16px;
   }
 
@@ -218,6 +219,10 @@ body {
 
   .fibonacci-wrap button {
     margin-top: 8px;
+  }
+
+  .bangunRuang-wrap input{
+    font-size: 10px;
   }
 }
 
