@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitung Deret Fibonacci</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="aplikasi">
+      <h2>KALKULATOR</h2>
+      <h4>Nama : Ketut Rega Arunika</h4>
+      <h4>NIM : 2215101004</h4>
+      <h4>Kelas : A</h4>
+    </div>
+    <!-- Deret -->
+    <div class="fibonacci-wrap">
+      <div class="judul">
+        <h1>Hitung Deret Fibonacci</h1>
+      </div>
+      <label for="n">Masukkan nilai suku ke-n: </label>
+      <input type="number" id="n" min="1" step="1" value="1" />
+      <button onclick="hitungFibonacci()">Hitung</button>
+      <p>Hasil deret Fibonacci: <span id="hasil"></span></p>
+    </div>
+    <!-- bangun ruang -->
+    <div class="bangunRuang-wrap">
+      <h1>Hitung Volume Bangun Ruang</h1>
+      <label for="pilihBentuk">Pilih Bentuk:</label>
+      <select id="pilihBentuk" class="menu">
+        <option value="kubus">Kubus</option>
+        <option value="bola">Bola</option>
+        <option value="silinder">Tabung</option>
+      </select>
+
+      <div class="ukuran">
+        <label for="ukuran1">Sisi :</label>
+        <input type="number" id="ukuran1" placeholder="Sisi/Jari-Jari (cm)" />
+
+        <label for="ukuran2">Lebar :</label>
+        <input type="number" id="ukuran2" placeholder="Lebar (cm)" />
+
+        <label for="ukuran3">Tinggi :</label>
+        <input type="number" id="ukuran3" placeholder="Tinggi (cm)" />
+      </div>
+
+      <button id="menghitungVolume">Hitung</button>
+
+      <p>Hasil Volume: <span id="hasilVolume"></span> cm³</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
