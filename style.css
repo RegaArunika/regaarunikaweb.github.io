@@ -127,6 +127,7 @@ body {
 
 .bangunRuang-wrap label {
   color: white;
+  font-size: 16px;
 }
 
 .ukuran input{
@@ -171,7 +172,7 @@ body {
   }
 
   .bangunRuang-wrap label {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .fibonacci-wrap h1 {
@@ -199,6 +200,14 @@ body {
 
   .ukuran input{
     height: 16px;
+  }
+
+  .ukuran .ukuran1{
+    height: 16px;
+  }
+
+  .bangunRuang-wrap #label{
+    font-size: 16px;
   }
 }
 
